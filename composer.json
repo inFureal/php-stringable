@@ -1,0 +1,22 @@
+{
+    "name": "infureal/php-stringable",
+    "description": "String helper class for better experience",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bakhtiyar Issakhmetov",
+            "email": "b.issakhmetov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "ext-mbstring": "*",
+        "ext-ctype": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Infureal\\": "./src"
+        }
+    }
+}
