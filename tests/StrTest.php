@@ -9,10 +9,8 @@ class StrTest extends TestCase
 
     function testStrOf()
     {
-
         $str = Str::of('string');
-        $this->isInstanceOf(Str\Stringable::class);
-
+        $this->assertEquals(Str\Stringable::class, get_class($str));
     }
 
 }
